@@ -1,0 +1,77 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Priority": "Default+2",
+            "TargetField": [
+                "Joja",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModID}}_Cocoyam": {
+                    "Id": "{{ModID}}_Cocoyam",
+                    "ItemId": "(O){{ModID}}_CocoyamSeeds",
+                    "Condition": "SEASON spring summer"
+                }
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModID}}_CocoyamSeeds": {
+                    "Id": "{{ModID}}_CocoyamSeeds",
+                    "ItemId": "(O){{ModID}}_CocoyamSeeds",
+                    "Condition": "SEASON spring summer"
+                }
+            },
+            "MoveEntries": [
+				{
+					"Id": "{{ModID}}_CocoyamSeeds",
+					"BeforeId": "GrassStarter"
+				}
+			]
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Hospital",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModID}}_Estrobench": {
+                    "Id": "{{ModID}}_Estrobench",
+                    "ItemId": "(BC){{ModID}}_Estrobench",
+                    "Price": 2500
+                },
+                "{{ModID}}_Testobench": {
+                    "Id": "{{ModID}}_Testobench",
+                    "ItemId": "(BC){{ModID}}_Testobench",
+                    "Price": 2500
+                },
+                "{{ModID}}_Estrobench_Recipe": {
+                    "Id": "{{ModID}}_Estrobench_Recipe",
+                    "ItemId": "(BC){{ModID}}_Estrobench",
+                    "Price": 25000,
+                    "IsRecipe": true,
+                    "TradeItemAmount": 1
+                },
+                "{{ModID}}_Testobench_Recipe": {
+                    "Id": "{{ModID}}_Testobench_Recipe",
+                    "ItemId": "(BC){{ModID}}_Testobench",
+                    "Price": 25000,
+                    "IsRecipe": true,
+                    "TradeItemAmount": 1
+                }
+            }
+        }
+    ]
+}

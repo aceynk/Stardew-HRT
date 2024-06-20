@@ -1,0 +1,13 @@
+{
+    "Name": "Stardew HRT",
+    "Author": "aceynk",
+    "Version": "1.0.0",
+    "Description": "Adds Estrogen and Testosterone to SDV.",
+    "UniqueId": "aceynk.sdvhrt",
+    "UpdateKeys": [
+        
+    ],
+    "ContentPackFor": {
+        "UniqueId": "Pathoschild.ContentPatcher"
+    }
+}

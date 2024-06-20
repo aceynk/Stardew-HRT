@@ -1,0 +1,15 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "{{ModID}}/Crops, {{ModID}}/Objects, {{ModID}}/craftables",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+
+        {
+			"Action": "Include",
+			"FromFile": "code/spacecore.json, code/objects.json, code/machines.json, code/crops.json, code/shops.json, code/craftingrecipes.json"
+		}
+    ]
+}

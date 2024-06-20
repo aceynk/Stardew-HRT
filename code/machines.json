@@ -1,0 +1,158 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModID}}_Estrobench": {
+                    "Name": "{{ModID}}_Estrobench",
+                    "DisplayName": "{{i18n:Estrobench_name}}",
+                    "Description": "{{i18n:Estrobench_desc}}",
+                    "Texture": "{{ModID}}/Craftables",
+                    "SpriteIndex": 0
+                },
+                "{{ModID}}_Testobench": {
+                    "Name": "{{ModID}}_Testobench",
+                    "DisplayName": "{{i18n:Testobench_name}}",
+                    "Description": "{{i18n:Testobench_desc}}",
+                    "Texture": "{{ModID}}/Craftables",
+                    "SpriteIndex": 2
+                }
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)19",
+                "OutputRules"
+            ],
+            "Entries": {
+                "{{ModID}}_Progesterone": {
+                    "Id": "{{ModID}}_Progesterone",
+                    "Triggers": [
+                        {
+                            "RequiredTags": [
+                                "cocoyam_item"
+                            ]
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "(O){{ModID}}_Progesterone",
+                            "CopyQuality": false
+                        }
+                    ],
+                    "MinutesUntilReady": 1312
+                }
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)Dehydrator",
+                "OutputRules"
+            ],
+            "Entries": {
+                "{{ModID}}_Estradiolpill": {
+                    "Id": "{{ModID}}_Estradiolpill",
+                    "Triggers": [
+                        {
+                            "RequiredItemId": "(O){{ModID}}_Estradiol"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "(O){{ModID}}_Estradiolpill",
+                            "MinStack": 5,
+                            "CopyQuality": false
+                        }
+                    ],
+                    "MinutesUntilReady": 500
+                },
+                "{{ModID}}_Testosteronepill": {
+                    "Id": "{{ModID}}_Testosteronepill",
+                    "Triggers": [
+                        {
+                            "RequiredItemId": "(O){{ModID}}_Testosterone"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "(O){{ModID}}_Testosteronepill",
+                            "MinStack": 5,
+                            "CopyQuality": false
+                        }
+                    ],
+                    "MinutesUntilReady": 500
+                }
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC){{ModID}}_Estrobench": {
+                    "OutputRules": [
+                        {
+                            "Id": "{{ModID}}_Estradiol",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O){{ModID}}_Progesterone"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "(O){{ModID}}_Estradiol"
+                                }
+                            ],
+                            "MinutesUntilReady": 2624
+                        }
+                    ],
+                    "LoadEffects": [
+                        {
+                            "Sounds": [
+                                {
+                                    "Id": "bubbles"
+                                }
+                            ]
+                        }
+                    ],
+                    "WobbleWhileWorking": true
+                },
+                "(BC){{ModID}}_Testobench": {
+                    "OutputRules": [
+                        {
+                            "Id": "{{ModID}}_Testosterone",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O){{ModID}}_Progesterone"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "(O){{ModID}}_Testosterone"
+                                }
+                            ],
+                            "MinutesUntilReady": 2624
+                        }
+                    ],
+                    "LoadEffects": [
+                        {
+                            "Sounds": [
+                                {
+                                    "Id": "bubbles"
+                                }
+                            ]
+                        }
+                    ],
+                    "WobbleWhileWorking": true
+                }
+            }
+        }
+    ]
+}

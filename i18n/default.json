@@ -1,0 +1,38 @@
+{
+    // CROPS
+
+    "Cocoyam_name": "Cocoyam",
+    "Cocoyam_desc": "A shining, beautiful yam.",
+
+    "Cocoyamseeds_name": "Cocoyam Seeds",
+    "Cocoyamseeds_desc": "Plant these in the spring or summer. Takes 6 days to mature.",
+
+    // HORMONES
+
+    "Prog_name": "Progesterone",
+    "Prog_desc": "An important hormone in the human body.",
+
+    "Estr_name": "Estradiol",
+    "Estr_desc": "An important estrogenic steroid.",
+
+    "Testo_name": "Testosterone",
+    "Testo_desc": "An important androgenic steroid.",
+
+    "Estrpill_name": "Estradiol Pill",
+    "Estrpill_desc": "A pill holding an important estrogenic steroid.",
+
+    "Testopill_name": "Testosterone Pill",
+    "Testopill_desc": "A pill holding an important androgenic steroid.",
+
+    // SPACECORE CATEGORIES
+
+    "Hormone": "Hormone",
+
+    // MACHINES
+
+    "Estrobench_name": "Estrobench",
+    "Estrobench_desc": "Place Progesterone within to eventually produce Estradiol.",
+
+    "Testobench_name": "Testobench",
+    "Testobench_desc": "Place Progesterone within to eventually produce Testosterone."
+}

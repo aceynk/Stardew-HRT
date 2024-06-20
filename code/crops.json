@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModID}}_CocoyamSeeds": {
+                    "Seasons": [ "spring", "summer" ],
+                    "DaysInPhase": [ 2, 1, 1, 2 ],
+                    "HarvestItemId": "{{ModID}}_Cocoyam",
+                    "Texture": "{{ModID}}/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        }
+    ]
+}

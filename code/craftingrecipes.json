@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "{{ModID}}_Estrobench": "335 5 338 2 545 1 709 20/Home/{{ModID}}_Estrobench/true/",
+                "{{ModID}}_Testobench": "335 5 338 2 541 1 709 20/Home/{{ModID}}_Testobench/true/"
+            }
+        }
+    ]
+}

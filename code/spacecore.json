@@ -1,0 +1,55 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "{{ModID}}_Progesterone": {
+                    "CategoryTextOverride": "{{i18n:Hormone}}",
+                    "CategoryColorOverride": {
+                        "R": 137,
+                        "G": 69,
+                        "B": 140,
+                        "A": 255
+                    }
+                },
+                "{{ModID}}_Estradiol": {
+                    "CategoryTextOverride": "{{i18n:Hormone}}",
+                    "CategoryColorOverride": {
+                        "R": 137,
+                        "G": 69,
+                        "B": 140,
+                        "A": 255
+                    }
+                },
+                "{{ModID}}_Testosterone": {
+                    "CategoryTextOverride": "{{i18n:Hormone}}",
+                    "CategoryColorOverride": {
+                        "R": 137,
+                        "G": 69,
+                        "B": 140,
+                        "A": 255
+                    }
+                },
+                "{{ModID}}_Estradiolpill": {
+                    "CategoryTextOverride": "{{i18n:Hormone}}",
+                    "CategoryColorOverride": {
+                        "R": 137,
+                        "G": 69,
+                        "B": 140,
+                        "A": 255
+                    }
+                },
+                "{{ModID}}_Testosteronepill": {
+                    "CategoryTextOverride": "{{i18n:Hormone}}",
+                    "CategoryColorOverride": {
+                        "R": 137,
+                        "G": 69,
+                        "B": 140,
+                        "A": 255
+                    }
+                }
+            }
+        }
+    ]
+}
